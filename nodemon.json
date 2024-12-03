@@ -1,0 +1,12 @@
+{
+    "verbose": true,
+    "ignore": ["node_modules", "public"],
+    "watch": ["src"],
+    "ext": "js,json,ts",
+    "exec": "ts-node ./src/index.ts",
+    "env": {
+      "NODE_ENV": "development",
+      "PORT": "3000"
+    }
+  }
+  
